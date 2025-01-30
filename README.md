@@ -15,10 +15,10 @@ Here you will find the projects I have completed:
 ## Projects List 
 
 ### Python project 
-- [Malaysian Flood](Python projects/Malaysian Flood)
+- [Malaysian Flood](https://github.com/imranhadi13/portfolio-projects/tree/a799c0213d351f862931522f5746fedc32424d29/Python%20projects/Malaysian%20Flood)
 
 ### Power BI project 
-- [Malaysian Flood](Power BI projects/Malaysian Flood)
+- [Malaysian Flood](https://github.com/imranhadi13/portfolio-projects/tree/a799c0213d351f862931522f5746fedc32424d29/Power%20BI%20projects/Malaysian%20Flood)
 
 ### SQL project 
 - 
