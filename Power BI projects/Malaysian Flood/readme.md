@@ -14,18 +14,19 @@ Skills: power query transformation, semantic model creation, DAX query, data vis
 
 Technology: Power BI 
 
-Raw dataset: [Malaysian Flood](hhttps://github.com/imranhadi13/portfolio-projects/blob/073cd1094d91a05b66e1fca38e4d92a8f81d113f/Power%20BI%20projects/Malaysian%20Flood/screenshots/power%20query.png)
+Raw dataset: [Malaysian Flood](https://github.com/imranhadi13/portfolio-projects/blob/49f59a052eb34cf4466614e778f5cb5cddd820e0/Power%20BI%20projects/Malaysian%20Flood/_MalaysiaFloodDataset_MalaysiaFloodDataset.csv)
 
 Further information about this project:
 The data was loaded from csv file _MalaysiaFloodDataset_MalaysiaFloodDataset and underwent transformation under Power Query, including:
 - amended rows 
 - creating new table to separate the dataset for annual records and monthly rainfall amount
 - creating new column based on existing column (e.g. creating unique state-district key)
->![Power Query](C:\Users\user\Documents\GitHub\portfolio-projects\Power BI projects\Malaysian Flood\screenshots\power query.png)
+>![Power Query](https://github.com/imranhadi13/portfolio-projects/blob/49f59a052eb34cf4466614e778f5cb5cddd820e0/Power%20BI%20projects/Malaysian%20Flood/screenshots/power%20query.png)
 
 Semantic model was created and linked between the tables
 - new 'Date' table was also created using DAX CALENDARAUTO() function to link between the tables' date value
 - new 'State-District' table was also created to link between the unique state-district key between the annual and monthly table 
+>![Semantic model](https://github.com/imranhadi13/portfolio-projects/blob/49f59a052eb34cf4466614e778f5cb5cddd820e0/Power%20BI%20projects/Malaysian%20Flood/screenshots/semantic%20model.png)
 
 In the data visualization phase, the visuals were created
 - this phase also includes creating new measures and calculated column by using DAX query to aggregate the data 
@@ -33,27 +34,32 @@ In the data visualization phase, the visuals were created
 Report pages: 
 i) Dashboard
 - homepage to navigate to 3 main pages: 'Flood events by year', 'Flood events by states', 'Annual rainfall statistics'
+>![Dashboard](https://github.com/imranhadi13/portfolio-projects/blob/49f59a052eb34cf4466614e778f5cb5cddd820e0/Power%20BI%20projects/Malaysian%20Flood/screenshots/dashboard.png)
 
 ii) Flood events by year (hidden) 
 - visuals including proportion of flood occurrences for the year, number of flood occurrences, and trend of flood of occurrences across the year 
 - includes button to navigate to homepage or two other main pages
+>![Flood event by year](https://github.com/imranhadi13/portfolio-projects/blob/49f59a052eb34cf4466614e778f5cb5cddd820e0/Power%20BI%20projects/Malaysian%20Flood/screenshots/flood%20by%20year.png)
 
 iii) Flood events by state (hidden) 
 - visuals including flood occurrences across 13 states, proportion of flood occurrences across 13 states 
 - includes button to navigate to homepage or two other main pages as well as button to view the flood occurrences on district level 
+>![Flood event by state](https://github.com/imranhadi13/portfolio-projects/blob/49f59a052eb34cf4466614e778f5cb5cddd820e0/Power%20BI%20projects/Malaysian%20Flood/screenshots/flood%20by%20year.png)
 
 iv) Annual rainfall statistics (hidden)
 - visuals including rainfall and flood count across the years and flood percentages and average annual rainfall (this included measures flood% and ratio of average annual rainfall to flood% for better visualization of the 
 - includes button to navigate to homepage or two other main pages as well as button to view the flood occurrences on district level
+>![Annual rainfall](https://github.com/imranhadi13/portfolio-projects/blob/49f59a052eb34cf4466614e778f5cb5cddd820e0/Power%20BI%20projects/Malaysian%20Flood/screenshots/annual%20rainfall.png)
 
 v) District flood event (hidden) 
 - visual including flood occurrences by district 
 - includes button to return to previous page (flood events by state) 
-
+>![District flood](https://github.com/imranhadi13/portfolio-projects/blob/49f59a052eb34cf4466614e778f5cb5cddd820e0/Power%20BI%20projects/Malaysian%20Flood/screenshots/district%20flood.png)
 vi) Monthly rainfall (hidden) 
 - visual including monthly rainfall trend 
 - includes button to return to previous page (annual rainfall statistics)
- 
+>![Monthly rainfall](https://github.com/imranhadi13/portfolio-projects/blob/49f59a052eb34cf4466614e778f5cb5cddd820e0/Power%20BI%20projects/Malaysian%20Flood/screenshots/monthly%20rainfall.png)
+
 Insights from the Power BI analysis:
 - there are proportionately more years without flood compared to years with flood (54% and 46% respectively)
 - state 106, 107, and 109 has proportionally more flood occurrences compared to other states
