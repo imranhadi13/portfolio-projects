@@ -21,6 +21,7 @@ The data was loaded from csv file _MalaysiaFloodDataset_MalaysiaFloodDataset and
 - amended rows 
 - creating new table to separate the dataset for annual records and monthly rainfall amount
 - creating new column based on existing column (e.g. creating unique state-district key)
+>![Power Query](C:\Users\user\Documents\GitHub\portfolio-projects\Power BI projects\Malaysian Flood\screenshots\power query.png)
 
 Semantic model was created and linked between the tables
 - new 'Date' table was also created using DAX CALENDARAUTO() function to link between the tables' date value
