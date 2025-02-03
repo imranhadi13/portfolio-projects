@@ -44,7 +44,7 @@ ii) Flood events by year (hidden)
 iii) Flood events by state (hidden) 
 - visuals including flood occurrences across 13 states, proportion of flood occurrences across 13 states 
 - includes button to navigate to homepage or two other main pages as well as button to view the flood occurrences on district level 
->![Flood event by state](https://github.com/imranhadi13/portfolio-projects/blob/49f59a052eb34cf4466614e778f5cb5cddd820e0/Power%20BI%20projects/Malaysian%20Flood/screenshots/flood%20by%20year.png)
+>![Flood event by state](https://github.com/imranhadi13/portfolio-projects/blob/7077f64584c767cdc51ff8563ebb36d5c48cb2e7/Power%20BI%20projects/Malaysian%20Flood/screenshots/flood%20by%20state.png)
 
 iv) Annual rainfall statistics (hidden)
 - visuals including rainfall and flood count across the years and flood percentages and average annual rainfall (this included measures flood% and ratio of average annual rainfall to flood% for better visualization of the 
