@@ -14,7 +14,7 @@ Skills: power query transformation, semantic model creation, DAX query, data vis
 
 Technology: Power BI 
 
-Raw dataset: [Malaysian Flood](https://github.com/imranhadi13/portfolio-projects/blob/a799c0213d351f862931522f5746fedc32424d29/Power%20BI%20projects/Malaysian%20Flood/_MalaysiaFloodDataset_MalaysiaFloodDataset.csv)
+Raw dataset: [Malaysian Flood](hhttps://github.com/imranhadi13/portfolio-projects/blob/073cd1094d91a05b66e1fca38e4d92a8f81d113f/Power%20BI%20projects/Malaysian%20Flood/screenshots/power%20query.png)
 
 Further information about this project:
 The data was loaded from csv file _MalaysiaFloodDataset_MalaysiaFloodDataset and underwent transformation under Power Query, including:
