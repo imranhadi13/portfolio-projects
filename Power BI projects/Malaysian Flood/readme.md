@@ -3,8 +3,8 @@ Malaysian Flood Power BI Analysis
 Goal: To analyse and visualize data behind flood events in Malaysia across years and states, and provide insights for further recommendation.
 
 Download link:
-[Malaysian Flood Power BI .pbix file]()
-[Malaysian Flood Power BI pdf report]()
+[Malaysian Flood Power BI .pbix file](https://github.com/imranhadi13/portfolio-projects/blob/93b41cac9453b108ff249d9f385846fb21db460c/Power%20BI%20projects/Malaysian%20Flood/Malaysian%20Flood%20Dataset.pbix)
+[Malaysian Flood Power BI pdf report](https://github.com/imranhadi13/portfolio-projects/blob/93b41cac9453b108ff249d9f385846fb21db460c/Power%20BI%20projects/Malaysian%20Flood/Malaysian%20Flood.pdf)
  *due to limitation of my account, I am not able to embed the Power BI report for ease of viewing. You may download the PBIX report file or pdf report extract from the link above to view the Power BI report. You may also scroll further under further information for the project for images and descriptions behind the project*
 
 Description: 
