@@ -3,8 +3,8 @@ Nortwinds Sales Power BI analysis
 Goal: To analyse and visualise data for sales for Northwinds company based on various aspects, and gaining insights for further recommendation.
 
 Download link:
-[Northwinds Sales Analysis pbix file]()
-[Northwinds Sales Analysis pdf file]()
+[Northwinds Sales Analysis pbix file](https://github.com/imranhadi13/portfolio-projects/blob/979adcf26c0b90aefcc4c3f1069e8b862a6cd1e5/Power%20BI%20projects/Northwinds%20Sales%20Analysis/Northwinds%20Sales%20Analysis.pbix)
+[Northwinds Sales Analysis pdf file](https://github.com/imranhadi13/portfolio-projects/blob/979adcf26c0b90aefcc4c3f1069e8b862a6cd1e5/Power%20BI%20projects/Northwinds%20Sales%20Analysis/Northwinds%20Sales%20Analysis.pdf)
 
  *(due to limitation of my account, I am not able to embed the Power BI report for ease of viewing. You may download the PBIX report file or pdf report extract from the link above to view the Power BI report. You may also scroll further under further information for the project for images and descriptions behind the project)*
 
@@ -19,29 +19,31 @@ Raw dataset: [Northwinds SQL sample](https://github.com/microsoft/sql-server-sam
 
 Detailed steps about this project:
 The data was imported from database for the Northwinds dataset, and relevant tables had been selected. 
->![Import]()
+>![Import](https://github.com/imranhadi13/portfolio-projects/blob/979adcf26c0b90aefcc4c3f1069e8b862a6cd1e5/Power%20BI%20projects/Northwinds%20Sales%20Analysis/Screenshots/Loading%20the%20data.png)
 
 The table then underwent analysis of relevant tables and transformation under Power Query (including renaming columns) before loaded onto the Power BI for further analysis. 
->![Power Query]()
+>![Power Query](https://github.com/imranhadi13/portfolio-projects/blob/979adcf26c0b90aefcc4c3f1069e8b862a6cd1e5/Power%20BI%20projects/Northwinds%20Sales%20Analysis/Screenshots/Power%20Query.png)
 
 Semantic model was created. 
 New 'Date' table was also created using DAX CALENDARAUTO() to facilitate analysis based on date value. 
->![Semantic Model]()
+>![Semantic Model](https://github.com/imranhadi13/portfolio-projects/blob/979adcf26c0b90aefcc4c3f1069e8b862a6cd1e5/Power%20BI%20projects/Northwinds%20Sales%20Analysis/Screenshots/Semantic%20model.png)
 
 In the data visualization phase, the visuals were created
 - this phase also includes creating new measures and calculated column by using DAX query to aggregate the data including but not limited to: 
 -- combining Company and Country in single column using calculated column 
 -- revenue calculation for each rows in 'Order Details' using measure and DAX query 
 -- using measure to derive previous year sales 
+>![Table](https://github.com/imranhadi13/portfolio-projects/blob/979adcf26c0b90aefcc4c3f1069e8b862a6cd1e5/Power%20BI%20projects/Northwinds%20Sales%20Analysis/Screenshots/Table.png)
+
 
 Report pages: 
 i) Dashboard
 - homepage to navigate to 3 main pages: 'Sales in Country', 'Sales in Product and Categories', 'Sales in Year'
 Each report pages include navigation to return to the dashboard.
->![Dashboard]()
+>![Dashboard](https://github.com/imranhadi13/portfolio-projects/blob/979adcf26c0b90aefcc4c3f1069e8b862a6cd1e5/Power%20BI%20projects/Northwinds%20Sales%20Analysis/Screenshots/Semantic%20model.png)
 
 ii) Sales in country 
->![Sales in country]()
+>![Sales in country](https://github.com/imranhadi13/portfolio-projects/blob/979adcf26c0b90aefcc4c3f1069e8b862a6cd1e5/Power%20BI%20projects/Northwinds%20Sales%20Analysis/Screenshots/Sales%20in%20country.png)
 Provided analysis based on country aspects. 
 
 Included the following visuals: 
@@ -54,7 +56,7 @@ Included the following visuals:
 User able to highlight specific country's revenue by selecting them either in the column chart or the map visual. 
 
 ii) Sales in product and categories 
->![Sales in product and categories]()
+>![Sales in product and categories](https://github.com/imranhadi13/portfolio-projects/blob/979adcf26c0b90aefcc4c3f1069e8b862a6cd1e5/Power%20BI%20projects/Northwinds%20Sales%20Analysis/Screenshots/Sales%20in%20products%20and%20categories.png)
 Provided analysis of sales based on products and categories. 
 
 Included the following visuals: 
@@ -67,7 +69,7 @@ User able to filter for the sales of the product/categories based on country by 
 User also able to toggle between most profitable and least profitable product and categories filter using bookmark provided in upper right of the page. 
 
 ii) Sales in year 
->![Sales in year]()
+>![Sales in year](https://github.com/imranhadi13/portfolio-projects/blob/979adcf26c0b90aefcc4c3f1069e8b862a6cd1e5/Power%20BI%20projects/Northwinds%20Sales%20Analysis/Screenshots/Sales%20in%20years.png)
 Provided analysis of sales based on yearly sales. 
 
 Included the following visuals:
